@@ -11,12 +11,15 @@ def createData():
     house_data = pd.read_csv("../processdata/Train.csv")
     data = house_data.iloc[:, 1:-1]
     print("data:\n", data[:5])
-    columns = ['Region', 'District', 'Garden', 'Layout', 'Floor', 'Year', 'Size', 'Direction', 'Renovation', ]
+    columns = ['Region', 'District', 'Garden', 'Layout', 'Direction', 'Renovation', ]
     for i in columns:
         le.fit(data[i])
         data[i + "Num"] = le.transform(data[i])
 
     data["PriceNum"] = data["Price"]
+    data["YearNum"] = data["Year"]
+    data["SizeNum"] = data["Size"]
+    data["FloorNum"] = data["Floor"]
     print("data:\n", data[:5])
     data = pd.DataFrame(data)
     data.to_csv("numTrainData.csv")
@@ -36,11 +39,15 @@ def createData():
     house_data = pd.read_csv("../processdata/test.csv")
     data = house_data.iloc[:, 1:-1]
     print("data:\n", data[:5])
-    columns = ['Region', 'District', 'Garden', 'Layout', 'Floor', 'Year', 'Size', 'Direction', 'Renovation', ]
+    columns = ['Region', 'District', 'Garden', 'Layout', 'Direction', 'Renovation', ]
     for i in columns:
         le.fit(data[i])
         data[i + "Num"] = le.transform(data[i])
+
     data["PriceNum"] = data["Price"]
+    data["YearNum"] = data["Year"]
+    data["SizeNum"] = data["Size"]
+    data["FloorNum"] = data["Floor"]
     print("data:\n", data[:5])
     data = pd.DataFrame(data)
     data.to_csv("numTestData.csv")
