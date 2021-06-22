@@ -2,19 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8032d9e-eb8f-4e88-9ad5-ce4c0c5e15bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/processdata/mergeData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processdata/predNonElevator.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processdata/sumData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomForest/numTrainData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomForest/numTrainTarget.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomForest/rfc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomForest/sumData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processdata/.ipynb_checkpoints/sumData-checkpoint.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processdata/不含空值数据文档_backup.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/期末大作业.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/note/期末大作业.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processdata/mergeData.py" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/mergeData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processdata/predNonElevator.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/predNonElevator.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processdata/sumData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/sumData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processdata/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processdata/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processdata/不含空值数据文档.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/不含空值数据文档.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/决策树/Source.gv" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/Source.gv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/决策树/Source.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/Source.gv.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/决策树/numTrainData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/numTrainData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/决策树/numTrainTarget.csv" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/numTrainTarget.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/决策树/predNonElevator.csv" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/predNonElevator.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../house_predict\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,12 +69,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/processdata" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RandomForest" />
+    <property name="settings.editor.selected.configurable" value="ssh.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop_projects\jupyter_notebook\house_predict\RandomForest" />
       <recent name="D:\develop_projects\jupyter_notebook\house_predict\processdata" />
+      <recent name="D:\develop_projects\jupyter_notebook\house_predict\测试" />
       <recent name="D:\develop_projects\jupyter_notebook\house_predict\决策树" />
       <recent name="D:\develop_projects\jupyter_notebook\house_predict\某地区房产价值分析\训练数据" />
     </key>
@@ -71,7 +87,7 @@
       <recent name="D:\System_libraries\Desktop\数据挖掘大作业" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mergeData">
+  <component name="RunManager" selected="Python.rfc">
     <configuration name="mergeData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="house_predict" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,6 +132,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rfc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="house_predict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RandomForest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RandomForest/rfc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="trees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="house_predict" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,15 +176,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.mergeData" />
+      <item itemvalue="Python.preprocess" />
+      <item itemvalue="Python.trees" />
+      <item itemvalue="Python.rfc" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mergeData" />
+        <item itemvalue="Python.rfc" />
         <item itemvalue="Python.trees" />
+        <item itemvalue="Python.mergeData" />
         <item itemvalue="Python.preprocess" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Sem_Young\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b8032d9e-eb8f-4e88-9ad5-ce4c0c5e15bc" name="Default Changelist" comment="" />
@@ -161,7 +209,7 @@
       <workItem from="1624335968229" duration="17000" />
       <workItem from="1624335987005" duration="1421000" />
       <workItem from="1624340609488" duration="7829000" />
-      <workItem from="1624354196788" duration="11185000" />
+      <workItem from="1624354196788" duration="21310000" />
     </task>
     <task id="LOCAL-00001" summary="some examples">
       <created>1624336054017</created>
@@ -191,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624369832841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="合并数据: -&gt; /processdata/sumData.csv">
+      <created>1624371174537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624371174537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,11 +257,14 @@
     <MESSAGE value="some examples" />
     <MESSAGE value="利用决策树预测了电梯情况" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="合并数据: -&gt; /processdata/sumData.csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并数据: -&gt; /processdata/sumData.csv" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/house_predict$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1624364054105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processdata" />
-    <SUITE FILE_PATH="coverage/house_predict$trees.coverage" NAME="trees Coverage Results" MODIFIED="1624370066632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/决策树" />
-    <SUITE FILE_PATH="coverage/house_predict$mergeData.coverage" NAME="mergeData Coverage Results" MODIFIED="1624370967692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processdata" />
+    <SUITE FILE_PATH="coverage/house_predict$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1624383433966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processdata" />
+    <SUITE FILE_PATH="coverage/house_predict$rfc.coverage" NAME="rfc Coverage Results" MODIFIED="1624384653819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RandomForest" />
+    <SUITE FILE_PATH="coverage/house_predict$trees.coverage" NAME="trees Coverage Results" MODIFIED="1624383729866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/决策树" />
+    <SUITE FILE_PATH="coverage/house_predict$rf.coverage" NAME="rfc Coverage Results" MODIFIED="1624377577210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RandomForest" />
+    <SUITE FILE_PATH="coverage/house_predict$mergeData.coverage" NAME="mergeData Coverage Results" MODIFIED="1624383626652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processdata" />
   </component>
 </project>
