@@ -1,0 +1,12 @@
+'Region', 区域（城区）
+'District', '地区
+Garden', 具体地址（街道、小区）
+'Layout', 布局（房间布局）
+'Floor', '楼层
+Year', '年份
+Size', '大小
+Elevator', 电梯
+'Direction', '方向（房子朝向）
+Renovation', 装修
+'Price 价格
+
