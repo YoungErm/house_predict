@@ -10,7 +10,7 @@ def createData():
     house_data = pd.read_csv("sumData.csv")
     data = house_data.iloc[:, 1:]
     print("data:\n", data[:5])
-    columns = ['Region', 'District', 'Layout', 'Direction', 'Renovation', ] #, 'Garden'
+    columns = ['Region', 'District', 'Room', 'Hall', 'Direction', 'Renovation', ] #, 'Garden'
     for i in columns:
         print(data[i])
         le = preprocessing.LabelEncoder()
@@ -36,7 +36,7 @@ def createData():
 createData()
 
 data = pd.read_csv("numTrainData.csv")
-data = data.iloc[:, 12:].values
+data = data.iloc[:, 13:].values
 target = pd.read_csv("numTrainTarget.csv")
 target = target["Price"]
 
@@ -46,13 +46,13 @@ Xtrain, Xtest, Ytrain, Ytest = train_test_split(data, target, test_size=0.3)
 print(Xtrain[:5])
 print(Ytrain[:5])
 
-clf = DecisionTreeRegressor(random_state=30)
+clf = DecisionTreeRegressor(random_state=30,max_depth=15)
 clf.fit(Xtrain, Ytrain)
 score_c = clf.score(Xtest, Ytest)
 print("single Tree:{}".format(score_c))
 
 
-rfc = RandomForestRegressor(random_state=30,oob_score=True)
+rfc = RandomForestRegressor(random_state=30,oob_score=True,max_depth=15)
 rfc.fit(Xtrain, Ytrain)
 print("Random Forest oob_scoreTrain:{}".format(rfc.oob_score_))
 score_r = rfc.score(Xtest, Ytest)

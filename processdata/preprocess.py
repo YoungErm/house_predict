@@ -13,7 +13,8 @@ def creatrData(filename, prefix):
     data = pd.read_csv(f"{filename}")
     print(data[:5])
 
-    columns = ['Region', 'District', 'Garden', 'Layout', 'Floor', 'Year', 'Size', 'Direction', 'Renovation',
+    columns = ['Region', 'District', 'Garden', 'Room', 'Hall', 'Floor', 'Year', 'Size', 'Direction',
+               'Renovation',
                'Price', 'Elevator']
 
     df = pd.DataFrame(data, columns=columns)

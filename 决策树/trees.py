@@ -8,10 +8,10 @@ import graphviz
 
 def createData():
     le = preprocessing.LabelEncoder()
-    house_data = pd.read_csv("../processdata/Train.csv")
+    house_data = pd.read_csv("../processdata/train.csv")
     data = house_data.iloc[:, 1:-1]
     print("data:\n", data[:5])
-    columns = ['Region', 'District', 'Garden', 'Layout', 'Direction', 'Renovation', ]
+    columns = ['Region', 'District', 'Garden', 'Room', 'Hall', 'Direction', 'Renovation', ]
     for i in columns:
         le.fit(data[i])
         data[i + "Num"] = le.transform(data[i])
@@ -39,7 +39,7 @@ def createData():
     house_data = pd.read_csv("../processdata/test.csv")
     data = house_data.iloc[:, 1:-1]
     print("data:\n", data[:5])
-    columns = ['Region', 'District', 'Garden', 'Layout', 'Direction', 'Renovation', ]
+    columns = ['Region', 'District', 'Garden', 'Room', 'Hall',  'Direction', 'Renovation', ]
     for i in columns:
         le.fit(data[i])
         data[i + "Num"] = le.transform(data[i])
@@ -56,7 +56,7 @@ def createData():
 createData()
 
 data = pd.read_csv("numTrainData.csv")
-data = data.iloc[:, 11:].values
+data = data.iloc[:, 12:].values
 target = pd.read_csv("numTrainTarget.csv")
 target = target["ElevatorNum"]
 
@@ -76,7 +76,7 @@ score = clf.score(Xtest, Ytest)
 print("score:\n", score)  # 0.9771157167530224
 print("result:\n", result)
 
-feature_name = ['Region', 'District', 'Garden', 'Layout', 'Floor', 'Year', 'Size', 'Direction', 'Renovation', 'Price']
+feature_name = ['Region', 'District', 'Garden', 'Room', 'Hall', 'Floor', 'Year', 'Size', 'Direction', 'Renovation', 'Price']
 feature_name = [i + "Num" for i in feature_name]
 
 print(clf.feature_importances_)
@@ -93,9 +93,9 @@ graph = graphviz.Source(dot_data)
 graph.view()
 
 testData = pd.read_csv("numTestData.csv")
-test = testData.iloc[:, 11:].values
+test = testData.iloc[:, 12:].values
 test = pd.DataFrame(test, columns=feature_name)
 print(test[:5])
 testData['Elevator'] = clf.predict(test)
-writeData = testData[['Region', 'District', 'Garden', 'Layout', 'Floor', 'Year', 'Size', 'Direction', 'Renovation', 'Price','Elevator']]
+writeData = testData[['Region', 'District', 'Garden', 'Room', 'Hall', 'Floor', 'Year', 'Size', 'Direction', 'Renovation', 'Price','Elevator']]
 writeData.to_csv("predNonElevator.csv")

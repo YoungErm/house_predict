@@ -9,7 +9,7 @@
 import pandas as pd
 from sklearn import preprocessing
 
-columns = ['Region', 'District', 'Garden', 'Layout', 'Floor', 'Year', 'Size', 'Direction', 'Renovation',
+columns = ['Region', 'District', 'Garden','Room','Hall', 'Floor', 'Year', 'Size', 'Direction', 'Renovation',
            'Price', 'Elevator']
 dataOrigin = pd.read_csv("不含空值数据文档.csv")
 dataOrigin = pd.DataFrame(dataOrigin, columns=columns)
