@@ -1,0 +1,12 @@
+特征	数据类型	中文描述	特征属性	处理方法
+Direction	object	房子朝向	类别	one hot编码
+District	object	地区	类别	暂时不做处理
+Elevator	object	电梯	类别	二值化
+Floor	int64	楼层	数值	顺序编码
+Garden	object	具体地址	类别	暂时不做处理
+Layout	object	布局	类别	拆分成room和hall
+Price	float64	价格	数值	保留
+Region	object	区域（城区）	类别	one hot编码
+Renovation	object	装修	类别	one hot编码
+Size	float64	大小	数值	对数变换或标准化
+Year	int64	年份	数值	对数变换或标准化

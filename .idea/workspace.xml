@@ -1,27 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8032d9e-eb8f-4e88-9ad5-ce4c0c5e15bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/processdata/空值数据文档1.1.csv" afterDir="false" />
+    <list default="true" id="b8032d9e-eb8f-4e88-9ad5-ce4c0c5e15bc" name="Default Changelist" comment="add room hall">
+      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/data-checkpoint.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/heatmap-checkpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/train-checkpoint.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/try-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/特征描述-checkpoint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/Direction_split.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/ElevatorNum.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/Region_Renovation_onehot.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/Room_Hall_split.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/heatmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/log_price.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/one_hot_all.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/r2_score.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/try.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/try.slides.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/期末大作业.slides.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/特征描述.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/特征描述.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processdata/不含空值数据文档1.1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomForest/numTrainData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForest/numTrainData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomForest/rfc.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForest/rfc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomForest/sumData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForest/sumData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processdata/mergeData.py" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/mergeData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processdata/predNonElevator.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/predNonElevator.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processdata/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processdata/sumData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/sumData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processdata/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processdata/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processdata/不含空值数据文档.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/不含空值数据文档1.1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processdata/空值数据文档.csv" beforeDir="false" afterPath="$PROJECT_DIR$/processdata/空值数据文档.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/Source.gv" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/Source.gv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/Source.gv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/Source.gv.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/numTestData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/numTestData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/numTrainData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/numTrainData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/predNonElevator.csv" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/predNonElevator.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/Elevator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/Layout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/Region.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/Renovation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/Size.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/Year.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/期末大作业.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/note/期末大作业.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/决策树/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/trees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/参考实验/titanic实验2/titanic3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/参考实验/titanic实验2/titanic3.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +223,8 @@
       <workItem from="1624335987005" duration="1421000" />
       <workItem from="1624340609488" duration="7829000" />
       <workItem from="1624354196788" duration="22096000" />
-      <workItem from="1624463889200" duration="2778000" />
+      <workItem from="1624463889200" duration="3692000" />
+      <workItem from="1624518343077" duration="10485000" />
     </task>
     <task id="LOCAL-00001" summary="some examples">
       <created>1624336054017</created>
@@ -255,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624384708144</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add room hall">
+      <created>1624466728400</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624466728400</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +288,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="合并数据: -&gt; /processdata/sumData.csv" />
     <MESSAGE value="delete &quot;叠品别墅&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete &quot;叠品别墅&quot;" />
+    <MESSAGE value="add room hall" />
+    <option name="LAST_COMMIT_MESSAGE" value="add room hall" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/house_predict$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1624466054440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processdata" />

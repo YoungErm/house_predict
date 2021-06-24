@@ -59,3 +59,12 @@ score_r = rfc.score(Xtest, Ytest)
 print("Random Forest oob_scoreTest:{}".format(rfc.oob_score_))
 print("Random Forest:{}".format(score_r))
 
+
+
+# 建立基线模型
+lgb = LGBMRegressor(objective='regression', random_state=50)
+xgb = XGBRegressor(objective='reg:linear', random_state=50)
+ridge = make_pipeline(RobustScaler(), RidgeCV(cv=kf))
+svr = make_pipeline(RobustScaler(), SVR())
+gbr = GradientBoostingRegressor(random_state=50)
+rfc = RandomForestRegressor(random_state=50)
