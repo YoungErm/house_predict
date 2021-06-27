@@ -40,7 +40,7 @@ data = data.iloc[:, 13:].values
 target = pd.read_csv("numTrainTarget.csv")
 target = target["Price"]
 
-
+data.corr()
 # 拆分训练集和测试集
 Xtrain, Xtest, Ytrain, Ytest = train_test_split(data, target, test_size=0.3)
 print(Xtrain[:5])

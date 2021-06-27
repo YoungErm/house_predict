@@ -1,39 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8032d9e-eb8f-4e88-9ad5-ce4c0c5e15bc" name="Default Changelist" comment="add room hall">
-      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/data-checkpoint.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/heatmap-checkpoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/train-checkpoint.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/try-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/特征描述-checkpoint.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/Direction_split.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/ElevatorNum.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/Region_Renovation_onehot.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/Room_Hall_split.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/heatmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/log_price.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/one_hot_all.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/r2_score.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/try.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/try.slides.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/期末大作业.slides.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/特征描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/特征描述.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processdata/不含空值数据文档1.1.csv" afterDir="false" />
+    <list default="true" id="b8032d9e-eb8f-4e88-9ad5-ce4c0c5e15bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_22_21_48__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_22_21_48__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_22_21_50__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_22_21_50__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_22_21_50__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_22_21_50__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomForest/rfc.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomForest/rfc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/Elevator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/Layout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/Region.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/Renovation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/Size.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/Year.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/.ipynb_checkpoints/try-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/note/.ipynb_checkpoints/try-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/ElevatorNum.csv" beforeDir="false" afterPath="$PROJECT_DIR$/note/ElevatorNum.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/log_price.csv" beforeDir="false" afterPath="$PROJECT_DIR$/note/log_price.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/one_hot_all.csv" beforeDir="false" afterPath="$PROJECT_DIR$/note/one_hot_all.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/r2_score.csv" beforeDir="false" afterPath="$PROJECT_DIR$/note/r2_score.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/try.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/note/try.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note/期末大作业.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/note/期末大作业.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/参考实验/titanic实验2/titanic3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/参考实验/titanic实验2/titanic3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/特征描述.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/note/特征描述.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,8 +173,8 @@
     <list>
       <item itemvalue="Python.mergeData" />
       <item itemvalue="Python.preprocess" />
-      <item itemvalue="Python.trees" />
       <item itemvalue="Python.rfc" />
+      <item itemvalue="Python.trees" />
     </list>
     <recent_temporary>
       <list>
@@ -224,7 +205,7 @@
       <workItem from="1624340609488" duration="7829000" />
       <workItem from="1624354196788" duration="22096000" />
       <workItem from="1624463889200" duration="3692000" />
-      <workItem from="1624518343077" duration="10485000" />
+      <workItem from="1624518343077" duration="13891000" />
     </task>
     <task id="LOCAL-00001" summary="some examples">
       <created>1624336054017</created>
@@ -275,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624466728400</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add room hall">
+      <created>1624551686439</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624551686439</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
